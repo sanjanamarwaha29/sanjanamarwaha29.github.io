@@ -1,0 +1,101 @@
+<div class="container">
+  <header class="header">
+    <h1 id="title" class= "title-first">Coding Survey Form</h1>
+    <p id="description" class= "description-text-center">Thankyou for investing your time, to help us conduct the Survey.</p>
+  </header>
+  <form id= "survey-form">
+    <div class= "form-group">
+      <label id= "name-label" for= "name">Name</label>
+      <input type= "text" name= "name" id= "name" class= "form-control" place-holder= "Enter your Name" required />
+    </div>
+    
+    <div class= "form-group">
+      <label id= "email-label" for= "email">Email</label>
+      <input type= "email" name= "email" id= "email" class= "form-control" place-holder= "Enter your Email-Id" required />
+    </div>
+    
+    <div class= "form-group">
+      <label id= "number-label" for= "number">Age<span class= "clue">(Optional)</span></label>
+      <input type= "number" name= "age" id= "number" min=10 max=99 class= "form-control" place-holder= "Enter your Age" />
+    </div>
+    
+    <div class= "form-group">
+      <p>Which option best describes you?</p>
+      <select id= "dropdown" name= "role" class= "form-control" required >
+        <option disabled selected value>Select any role</option>
+        <option value= "Student">Student</option>
+        <option value= "Employer">Employer</option>
+        <option value= "Learner">Learner</option>
+        <option value= "Prefer">Prefer not to say</option>
+        <option value= "Other">Other</option>
+      </select>
+    </div>
+    
+    <div class= "form-group">
+      <p>Would you like to code daily? </p>
+      <label>
+        <input name= "user-recommend" value= "definitely" type= "radio" class= "input-radio" checked/> Definitely
+      </label>
+      <label>
+        <input name= "user-recommend" value= "maybe" type= "radio" class= "input-radio"/> Maybe
+      </label>
+      <label>
+        <input name= "user-recommend" value= "notsure" type= "radio" class= "input-radio"/> Not Sure
+      </label>
+    </div>
+    
+    <div class= "form-group">
+      <p>In which Language would you like to code?<span class= "clue">(Check all that apply)</span>
+      </p>
+      <label>
+        <input name= "prefer" value= "html" type= "checkbox" class= "input-checkbox"/>HTML
+      </label>
+      <label>
+        <input name= "prefer" value= "css" type= "checkbox" class= "input-checkbox"/>CSS
+      </label>
+      <label>
+        <input name= "prefer" value= "c++" type= "checkbox" class= "input-checkbox"/>C++
+      </label>
+      <label>
+        <input name= "prefer" value= "c" type= "checkbox" class= "input-checkbox"/>C
+      </label>
+      <label>
+        <input name= "prefer" value= "java" type= "checkbox" class= "input-checkbox"/>JAVA
+      </label>
+      <label>
+        <input name= "prefer" value= "python" type= "checkbox" class= "input-checkbox"/>PYTHON
+      </label>
+      <label>
+        <input name= "prefer" value= "c#" type= "checkbox" class= "input-checkbox"/>C#
+      </label>
+      <label>
+        <input name= "prefer" value= "ruby" type= "checkbox" class= "input-checkbox"/>RUBY
+      </label>
+      <label>
+        <input name= "prefer" value= "javascript" type= "checkbox" class= "input-checkbox"/>JAVA-SCRIPT
+      </label>
+      <label>
+        <input name= "prefer" value= "perl" type= "checkbox" class= "input-checkbox"/>PERL
+      </label>
+      <label>
+        <input name= "prefer" value= "swift" type= "checkbox" class= "input-checkbox"/>SWIFT
+      </label>
+      <label>
+        <input name= "prefer" value= "other" type= "checkbox" class= "input-checkbox"/>OTHER
+      </label>
+    </div>
+    
+    <div class= "form-group">
+      <p>Any Comment or Suggestions?</p>
+      <textarea id= "comments" class= "input-textarea" name= "comment" placeholder="Enter your comment here..."></textarea>
+    </div>
+    
+    <div class= "form-group">
+      <button type= "button" id= "button" class= "submit-button">Submit
+      </button>
+    </div>
+    
+      
+  </form>
+  
+ </div>
